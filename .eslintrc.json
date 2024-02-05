@@ -13,7 +13,7 @@
         "project": "./tsconfig.json"
     },
     "settings": {
-        "import/external-module-folders": [".yarn"]
+        "import/external-module-folders": [".pnpm"]
     },
     "rules": {
         "@typescript-eslint/no-empty-interface": ["warn", { "allowSingleExtends": true }],
@@ -37,7 +37,7 @@
         "react/prop-types": "off",
         "react/react-in-jsx-scope": "off",
         "react/require-default-props": "off",
-        "react-hooks/exhaustive-deps": ["error", { "additionalHooks": "useBackKey" }],
+        "react-hooks/exhaustive-deps": ["error"],
         "implicit-arrow-linebreak": "off",
         "import/extensions": "off",
         "import/order": [
